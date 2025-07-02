@@ -52,13 +52,15 @@ In the meantime, the provided codebase and the detailed technical documentation 
 3. Basic understanding of command line interfaces.
 <br>
 <br>
+
 A. **Installation and Setup (With a Local GPU having sufficient VRAM)**
+
 
 *Step 1: Clone the repository:*
 
 ```bash
-git clone <PROVIDE_THE_ACTUAL_REPOSITORY_URL>
-cd <PROVIDE_THE_ACTUAL_REPOSITORY_NAME>
+git clone https://github.com/Asmit-cloud/Mistral-RAG-with-ChromaDB.git
+cd Mistral-RAG-with-ChromaDB
 ```
 
 *Step 2: Create and activate a Virtual Environment (Recommended):*
