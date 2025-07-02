@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyc
 *$py.class
 
 # C extensions
@@ -50,6 +51,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+chroma_db/
 
 # Translations
 *.mo
@@ -76,7 +78,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
