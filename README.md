@@ -306,6 +306,10 @@ While this presents a temporary change in my setup, I am fully committed to cont
 
 I appreciate your understanding as I adjust to these changes in my development environment.
 
+### Current Scope & Future Enhancements
+
+Due to the tight development timeline, the current RAG implementation utilizes a knowledge base with two initial files. I plan to significantly expand this knowledge base in future iterations to enhance the program's comprehensiveness and retrieval performance.
+
 
 
 ## Contributing and Support
