@@ -13,7 +13,7 @@ An intelligent Q & A system that provides accurate, context-aware, answers from 
 ### Elevator Pitch: What It Is and Why It Matters
 * This project implements a Retrieval-Augmented Generation (RAG) system designed to answer user queries based only on a provided set of domain-specific documents.
 
-* In an era where Large Language Models (LLMs) can sometimes "hallucinate" or generate incorrect information, this RAG application offers a robust solution by grounding LLM responses in verifiable facts from a curated knowledge base.
+* In an era where Large Language Models (LLMs) can sometimes "hallucinate" or generate incorrect information, this RAG application offers a robust solution by grounding LLM responses in verifiable facts from a curated knowledge base.  
 <br>
 This ensures accuracy and relevance, making it ideal for scenarios requiring precise information retrieval from specific data sources, such as technical manuals, research papers, or internal company documents.
 
@@ -195,7 +195,7 @@ except Exception as e:
 *Step 8: Run ngrok and Streamlit application:*
 
 ```python
-# The &>/dev/null& redirects output to null and runs in background, so Colab doesn't get stuck.
+# "&>/dev/null&": Redirects output to null and runs in background, so that Colab doesn't get stuck.
 !streamlit run rag_app.py &>/dev/null&
 
 # Start ngrok tunnel for Streamlit (default Streamlit port is 8501)
@@ -290,8 +290,9 @@ Expected Output: The system should indicate that it cannot answer this question 
 │     └── ScreenshotRAG.jpg
 ├── CRUZ_TEXAS_cleaned.txt
 ├── N6921C_cleaned.txt
-├── rag_app.py
 ├── README.md
+├── rag_app.ipynb
+├── rag_app.py
 └── requirements.txt
 ```
 
