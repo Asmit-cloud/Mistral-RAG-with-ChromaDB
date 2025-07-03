@@ -297,6 +297,15 @@ Expected Output: The system should indicate that it cannot answer this question 
 └── requirements.txt
 ```
 
+### Regarding Development Environment
+
+As the sole developer for this project, I want to provide a brief update on my current capacity.  
+I will soon be transitioning to an alternative development environment.
+
+While this presents a temporary change in my setup, I am fully committed to continuing development and support for this project to the best of my ability. Future updates may be less frequent or structured differently during this period, but my dedication to improving the RAG program remains.
+
+I appreciate your understanding as I adjust to these changes in my development environment.
+
 
 
 ## Contributing and Support
