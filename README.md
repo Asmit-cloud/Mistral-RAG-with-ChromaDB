@@ -5,7 +5,6 @@
 <br>
 
 ## The Foundation
----
 
 ### Project Tagline
 An intelligent Q & A system that provides accurate, context-aware, answers from a specialized knowledge base, minimizing LLM hallucinations.
@@ -22,7 +21,6 @@ An intelligent Q & A system that provides accurate, context-aware, answers from 
 
 
 ## Getting Started
----
 
 ### For the Non-Technical User (The "Easy" Button)
 Unfortunately, due to the significant computational resources required to run the full RAG pipeline locally (specifically, loading the large language model and reranker), it is not feasible to provide a live, free-tier hosted demo of this application. Deploying such a setup would exceed the limits of readily available free hosting services.
@@ -94,7 +92,8 @@ For a convenient, cloud-based setup that leverages free GPU resources, you can r
 
 **Note:** Google Colab provides temporary environments. If your session disconnects, you may need to re-run the setup steps.
 
-**Colab Environment:** While running this RAG application in Google Colab if you encounter any installation or runtime issues, please refer to the provided `rag_app.ipynb` notebook. This notebook contains the exact steps and necessary commands used to successfully set up and run the application within the Colab environment, addressing common dependency resolution challenges specific to Colab.
+**Colab Environment:** While running this RAG application in Google Colab if you encounter any installation or runtime issues, please refer to the provided `rag_app.ipynb` notebook.  
+This notebook contains the exact steps and necessary commands used to successfully set up and run the application within the Colab environment, addressing common dependency resolution challenges specific to Colab.
 
 *Step 1: Open a new Google Colab notebook:*
 * Go to [Google Colab](https://colab.research.google.com).
@@ -119,7 +118,8 @@ Run the following cell in your Colab notebook to install all the necessary Pytho
 ```python
 !pip install -q -r requirements.txt
 
-# Due to specific Colab environment characteristics, these additional installations are necessary to ensure proper dependency resolution for the RAG application and to avoid potential runtime errors, even if some packages are listed in requirements.txt.
+# Due to specific Colab environment characteristics, additional installations are necessary for this RAG application
+# These installations ensure proper dependency resolution and avoid potential runtime errors, even if some packages are listed in requirements.txt
 !pip install -q jedi
 !pip install -q llama-index
 !pip install -q llama-index-llms-huggingface
@@ -225,7 +225,6 @@ curl -H "ngrok-skip-browser-warning: 1" YOUR_NGROK_PUBLIC_URL/your_endpoint
 
 
 ## Unveiling the Features: Functionality for Everyone
----
 
 ### Key Features (The "Wow" Factors)
 
@@ -266,7 +265,6 @@ Expected Output: The system should indicate that it cannot answer this question 
 
 
 ## Diving Deeper
----
 
 ### Technical Stack
 
@@ -302,7 +300,6 @@ Expected Output: The system should indicate that it cannot answer this question 
 
 
 ## Contributing and Support
----
 
 
 This RAG project welcomes contributions to enhance itself!
@@ -329,7 +326,6 @@ For any issues or questions, please open an issue on the GitHub repository.
 
 
 ## Essential Information
----
 
 * **License:** [MIT License](LICENSE)
 
@@ -344,7 +340,6 @@ For any issues or questions, please open an issue on the GitHub repository.
 
 
 ## Project Highlights and Learnings
----
 
 <br>
 This project served as a hands-on exploration of building a functional RAG pipeline. Key design choices and learnings include:
@@ -360,7 +355,6 @@ This project served as a hands-on exploration of building a functional RAG pipel
 **Reranking with ColbertRerank:** The "BAAI/bge-reranker-large" was implemented as a post-processor to refine the initial retrieval results. This significantly improves the relevance of the chunks passed to the LLM, leading to more accurate and focused answers.
 
 ## Challenges and Overcoming Them
----
 
 
 **LLM Memory Constraints:** Running large models locally can be memory-intensive. 4-bit quantization was essential to make Mistral-7B-Instruct-v0.2 feasible on consumer-grade hardware.
