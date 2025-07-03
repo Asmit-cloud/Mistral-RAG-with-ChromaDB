@@ -91,7 +91,7 @@ def setup_rag_pipeline():
                 query_wrapper_prompt="[INST] {query_str} [/INST]",
                 context_window=7000,
                 max_new_tokens=4096,
-                generate_kwargs={"temperature": 0.2, "do_sample": True}, # Generation parameters
+                generate_kwargs={"temperature": 0.1, "do_sample": True}, # Generation parameters
                 model_kwargs={"quantization_config": quantization_config}, # Model specific arguments
                 device_map="auto", # Automatically map model layers to available devices
                 tokenizer_kwargs={"max_length": 4096}
