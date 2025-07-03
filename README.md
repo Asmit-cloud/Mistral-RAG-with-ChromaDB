@@ -13,9 +13,9 @@ An intelligent Q & A system that provides accurate, context-aware, answers from 
 ### Elevator Pitch: What It Is and Why It Matters
 * This project implements a Retrieval-Augmented Generation (RAG) system designed to answer user queries based only on a provided set of domain-specific documents.
 
-* In an era where Large Language Models (LLMs) can sometimes "hallucinate" or generate incorrect information, this RAG application offers a robust solution by grounding LLM responses in verifiable facts from a curated knowledge base.  
-<br>
-This ensures accuracy and relevance, making it ideal for scenarios requiring precise information retrieval from specific data sources, such as technical manuals, research papers, or internal company documents.
+* In an era where Large Language Models (LLMs) can sometimes "hallucinate" or generate incorrect information, this RAG application offers a robust solution by grounding LLM responses in verifiable facts from a curated knowledge base.
+
+    This ensures accuracy and relevance, making it ideal for scenarios requiring precise information retrieval from specific data sources, such as technical manuals, research papers, or internal company documents.
 
 ### Badge
 **License:** [MIT License](https://opensource.org/license/mit)
@@ -95,6 +95,8 @@ For a convenient, cloud-based setup that leverages free GPU resources, you can r
 
 **Note:** Google Colab provides temporary environments. If your session disconnects, you may need to re-run the setup steps.
 
+**Colab Environment:** While running this RAG application in Google Colab if you encounter any installation or runtime issues, please refer to the provided `rag_app.ipynb` notebook. This notebook contains the exact steps and necessary commands used to successfully set up and run the application within the Colab environment, addressing common dependency resolution challenges specific to Colab.
+
 *Step 1: Open a new Google Colab notebook:*
 * Go to [Google Colab](https://colab.research.google.com).
 * Click `File` -> `New Notebook`.
@@ -117,6 +119,8 @@ Run the following cell in your Colab notebook to install all the necessary Pytho
 
 ```python
 !pip install -q -r requirements.txt
+
+# Due to specific Colab environment characteristics, these additional installations are necessary to ensure proper dependency resolution for the RAG application and to avoid potential runtime errors, even if some packages are listed in requirements.txt.
 !pip install -q jedi
 !pip install -q llama-index
 !pip install -q llama-index-llms-huggingface
