@@ -13,8 +13,7 @@ An intelligent Q & A system that provides accurate, context-aware, answers from 
 ### Elevator Pitch: What It Is and Why It Matters
 * This project implements a Retrieval-Augmented Generation (RAG) system designed to answer user queries based only on a provided set of domain-specific documents.
 
-* In an era where Large Language Models (LLMs) can sometimes "hallucinate" or generate incorrect information, this RAG application offers a robust solution by grounding LLM responses in verifiable facts from a curated knowledge base.
-
+* In an era where Large Language Models (LLMs) can sometimes "hallucinate" or generate incorrect information, this RAG application offers a robust solution by grounding LLM responses in verifiable facts from a curated knowledge base.  
     This ensures accuracy and relevance, making it ideal for scenarios requiring precise information retrieval from specific data sources, such as technical manuals, research papers, or internal company documents.
 
 ### Badge
