@@ -352,7 +352,7 @@ For any issues or questions, please open an issue on the GitHub repository.
 
     * [Email](mailto:byte.100.tron@gmail.com) me for inquiries.
     
-    * Connect on [LinkedIn](www.linkedin.com/in/asmit-de-orbitingwithpython).
+    * Connect on [LinkedIn](https://www.linkedin.com/in/asmit-de-orbitingwithpython).
 
 
 
