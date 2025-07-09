@@ -348,7 +348,11 @@ For any issues or questions, please open an issue on the GitHub repository.
     
     * **Acknowledgements:** Special thanks to the developers of Streamlit, LlamaIndex, HuggingFace, ChromaDB, and the BAAI community for their incredible tools and models.
 
-* **Contact Information:** [Email](mailto:byte.100.tron@gmail.com) me for inquiries.
+* **Contact Information:**
+
+    * [Email](mailto:byte.100.tron@gmail.com) me for inquiries.
+    
+    * Connect on [LinkedIn](www.linkedin.com/in/asmit-de-orbitingwithpython).
 
 
 
